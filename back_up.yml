@@ -1,5 +1,6 @@
 ---
 - hosts: all
+  connection: ansible.netcommon.network_cli
   gather_facts: no
 
 
