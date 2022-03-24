@@ -1,8 +1,9 @@
 ---
 - hosts: all
-  gather_facts: yes
+  gather_facts: false
   connection: network_cli
   ansible_network_os: cisco.ios
+  ansible_become: yes
 
   tasks:
 
