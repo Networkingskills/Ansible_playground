@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  gather_facts: no
+  gather_facts: yes
   connection: network_cli
 
   tasks:
@@ -10,7 +10,7 @@
       banner: login
       text: "{{ lookup('file', './vars/raw_banner.cfg') }}"
       state: present
-    when: ansible_network_os == false
+  
 
   - name: SHOW RUN | BEG BANNER 
     ios_command:
