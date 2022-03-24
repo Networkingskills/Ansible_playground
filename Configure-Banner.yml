@@ -1,7 +1,7 @@
 ---
 - hosts: all
   gather_facts: false
-  connection: network_cli
+  connection: ansible.netcommon.network_cli
   ansible_network_os: cisco.ios.ios
   ansible_become: yes
   ansible_become_method: enable
