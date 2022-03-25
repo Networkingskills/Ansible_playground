@@ -1,3 +1,4 @@
+---
 tasks:
   - name: Merge provided configuration with device configuration
     cisco.ios.ios_l3_interfaces:
