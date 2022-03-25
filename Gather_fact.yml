@@ -2,7 +2,7 @@
 - name: First playbook with Cisco
   connection: network_cli
   gather_facts: false
-  ansible_network_os: ios
+  ansible_network_os: cisco.ios.ios
   hosts: all
   tasks:
 
