@@ -1,4 +1,5 @@
 - name: Merge provided configuration with device configuration
+  tasks:
   cisco.ios.ios_l3_interfaces:
     config:
     - name: GigabitEthernet0/1
