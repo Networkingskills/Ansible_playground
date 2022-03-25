@@ -1,0 +1,15 @@
+---
+- name: First playbook with Cisco
+  connection: network_cli
+  gather_facts: false
+  hosts: all
+  tasks:
+
+  - name: Get config
+    ios_facts:
+      gather_subset: all
+  - name: Display the config
+    debug:
+      msg: " This host is {{ ansibile_net_hostname }} and the OS is {{ ansible_net_version }} "
+
+  
