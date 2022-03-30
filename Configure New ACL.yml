@@ -1,3 +1,4 @@
+---
 - name: load new acl into device
   cisco.ios.ios_config:
     lines:
