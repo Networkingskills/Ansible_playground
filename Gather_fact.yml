@@ -1,9 +1,4 @@
 ---
-- hosts: all
-  gather_facts: false
-  ansible_become: yes
-  ansible_become_method: enable
-
   tasks:
 
     - name: Get config for IOS devices
