@@ -1,11 +1,8 @@
 ---
-- name: snmp ro/rw string configuration
-  hosts: all
-  gather_facts: no
+- hosts: all
 
   tasks:
-
-    - name: ensure that the desired snmp strings are present
+    - name: snmp ro/rw string configuration
       ios.config:
         commands:
           - snmp-server community ansible-public RO
