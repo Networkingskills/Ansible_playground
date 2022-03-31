@@ -16,7 +16,7 @@
   - name: SHOW RUN | Sec BANNER 
     ios_command:
       commands:
-        - show run | beg Qousai
+        - show run | Sec Qousai
     register: banner
 
   - debug: var=banner.stdout_lines
