@@ -8,4 +8,5 @@
     ios_l2_interfaces:
       config:
       - name: Ethernet0/0
-        description: Configured and Merged by Ansible Network
+      description: Configured and Merged by Ansible Network
+      state: merged
