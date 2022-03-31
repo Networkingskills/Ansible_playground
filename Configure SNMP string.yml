@@ -1,6 +1,6 @@
 ---
 - name: snmp ro/rw string configuration
-  hosts: cisco
+  hosts: all
   gather_facts: no
 
   tasks:
