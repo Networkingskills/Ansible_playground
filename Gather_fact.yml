@@ -1,9 +1,9 @@
 ---
 - hosts: all
-  gather_facts: false
+  gather_facts: yes
   
   tasks:
-  
+
     - name: Get config for IOS devices
       ios_facts:
       
