@@ -5,5 +5,5 @@
     - name: snmp ro/rw string configuration
       ios_config:
         commands:
-          - snmp-server community ansible-public RO
-          - snmp-server community ansible-private RW
+          - no snmp-server community ansible-public RO
+          - no snmp-server community ansible-private RW
