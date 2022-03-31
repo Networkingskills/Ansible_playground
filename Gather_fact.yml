@@ -1,8 +1,7 @@
 ---
 - hosts: all
   connection: network_cli
-  ansible_become: yes
-  ansible_become_method: enable
+
   
   tasks:
 
