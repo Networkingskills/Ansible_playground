@@ -3,7 +3,7 @@
 
   tasks:
     - name: snmp ro/rw string configuration
-      ios.config:
+      ios_config:
         commands:
           - snmp-server community ansible-public RO
           - snmp-server community ansible-private RW
