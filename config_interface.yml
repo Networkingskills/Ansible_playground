@@ -5,7 +5,7 @@
   tasks:
 
   - name: Merge provided configuration with device configuration
-  cisco.ios.ios_interfaces:
+    cisco.ios.ios_interfaces:
     config:
     - name: Ethernet0/0
       description: Configured and Merged by Ansible Network
