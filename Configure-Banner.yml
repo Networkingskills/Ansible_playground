@@ -13,7 +13,7 @@
       state: present
   
 
-  - name: SHOW RUN | BEG BANNER 
+  - name: SHOW RUN | Sec BANNER 
     ios_command:
       commands:
         - show run | beg Qousai
