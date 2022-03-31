@@ -1,6 +1,5 @@
 ---
 - hosts: all
-  gather_facts: yes
   connection: network_cli
   
   tasks:
