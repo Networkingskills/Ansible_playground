@@ -1,7 +1,8 @@
 ---
 - hosts: all
 
-- name: Gather only the config and default facts
-  nxos_facts:
-    gather_subset:
-    - config
+  tasks:
+    - name: Gather only the config and default facts
+      nxos_facts:
+        gather_subset:
+          - config
