@@ -1,0 +1,8 @@
+Switch,Interface,Server,Link,Purpose,VLAN
+Sandswitch,Ethernet1/1,User-01,nic 0,Dev user,10
+Sandswitch,Ethernet1/2,User-02,nic 0,Prod,20
+Sandswitch,Ethernet1/3,UPS-01,Eth0,Power,30
+Sandswitch,Ethernet1/4,WAP-01,Eth1,Access point,40
+Sandswitch,Ethernet1/5,Fw01-02,Gig 1,Inside interface,trunk
+Sandswitch,Ethernet1/6,Rtr-01,Gig 2,Uplink to Router,trunk
+Sandswitch,Ethernet1/7,sw-02,Po1,Access switch,trunk
