@@ -1,0 +1,11 @@
+Interface {{ Interface }}
+description Link to {{ Server }} port {{ link }} for {{ pupose }}
+switchport
+{%if vlan == "trunk" -%}
+switch mode trunk
+{% else -%}
+switchport mode access
+switchport access vlan {{ vlan }}
+spanning-tree port type edge
+{% endif -%}
+no shutdown
