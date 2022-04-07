@@ -6,5 +6,5 @@
     - name: snmp ro/rw string configuration
       ios_config:
         commands:
-          - snmp-server community Test-public RO
+          - snmp-server community test2-public RO
           - snmp-server community Test-private RW
