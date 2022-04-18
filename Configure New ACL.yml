@@ -1,6 +1,7 @@
 ---
 ############ Working Playbook
 - hosts: all
+## The hosts can be target to a group that match the inventory in the ansible instead of all 
 
   tasks:
     - name: load new acl into device
